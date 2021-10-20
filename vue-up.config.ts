@@ -3,8 +3,8 @@ import { resolve } from 'path';
 
 const config: Configuration = {
 	entry: resolve(__dirname, './src/index.ts'),
-	libraryName: 'VueHighlightJS',
-	fileName: 'vue-highlight',
+	libraryName: 'VueHighlightExpandJS',
+	fileName: 'vue-highlight-expand',
 	externals: {
 		module: nodeExternals({
 			extra: [/^highlight\.js/],
